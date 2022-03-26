@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My ATM</string>
+    <string name="last_transactions">Last Transactions</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="enter_your_withdraw_amount">Enter your withdraw amount</string>
+    <string name="your_transactions">Your Transactions</string>
+    <string name="no_last_transaction_made">No Last Transaction found</string>
+    <string name="you_haven_t_made_any_transaction">You haven\'t made any transaction</string>
+</resources>

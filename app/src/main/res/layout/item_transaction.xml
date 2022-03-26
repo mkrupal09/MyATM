@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAmount"
+            style="@style/transactionDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|start"
+            tools:text="Rs 5000"
+            app:layout_constraintHorizontal_weight="3"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/tvHundred"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvHundred"
+            style="@style/transactionDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="7"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintLeft_toRightOf="@id/tvAmount"
+            app:layout_constraintRight_toLeftOf="@id/tvTwoHundred"
+            app:layout_constraintTop_toTopOf="@id/tvAmount" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTwoHundred"
+            style="@style/transactionDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="3"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintLeft_toRightOf="@id/tvHundred"
+            app:layout_constraintRight_toLeftOf="@id/tvFiveHundred"
+            app:layout_constraintTop_toTopOf="@id/tvAmount" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvFiveHundred"
+            style="@style/transactionDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="2"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintLeft_toRightOf="@id/tvTwoHundred"
+            app:layout_constraintRight_toLeftOf="@id/tvTwoThousand"
+            app:layout_constraintTop_toTopOf="@id/tvAmount" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTwoThousand"
+            style="@style/transactionDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="1"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintLeft_toRightOf="@id/tvFiveHundred"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvAmount" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
