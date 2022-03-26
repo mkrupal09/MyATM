@@ -1,0 +1,1 @@
+<img alt="ATM Demo" src="https://github.com/mkrupal09/MyATM/blob/master/media/screen.jpeg" width = "212" height = "375" hspace="5"/>
